@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: ui-monospace;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(100deg, blue, skyblue);
+}
+
+.box{
+    width: 500px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span{
+    color: greenyellow;
+}
+
+.input-box{
+    height: 100px;
+    background-color: rgb(198, 205, 205);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+input{
+    margin: 20px 10px 20px 20px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+button{
+    margin: 20px 20px 20px 10px;
+    width: 200px;
+    font-size: 20px;
+    background-color: chartreuse;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:focus{
+    background-color: greenyellow;
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .box{
+        width: 20rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    input{
+        width: 10rem;
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+    button{
+        width: 7rem;
+        margin: 22px 0 22px;
+    }
+}
+  
